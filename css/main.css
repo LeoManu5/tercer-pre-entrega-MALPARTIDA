@@ -24,6 +24,7 @@ a {
   right: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   min-height: 50px;
 }
 
@@ -223,6 +224,11 @@ h4 {
   transition: ease 1s;
 }
 
+ul li {
+  display: inline-block;
+  text-align: center;
+}
+
 footer h3 {
   font-size: 20px;
   color: white;
@@ -232,6 +238,11 @@ footer h3 {
   justify-content: center;
   padding-top: 3px;
   margin: 100;
+}
+
+.nav-item:hover {
+  transform: scale(1.5);
+  transition: all 0.4s ease-out;
 }
 
 @keyframes efecto {

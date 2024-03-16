@@ -1,3 +1,7 @@
+.nav-item:hover{
+    transform: scale(1.50);
+    transition: all .4s ease-out;
+}
 @keyframes efecto{
     0%{
         box-shadow: 0 0 0 0 rgba(235, 241, 241, 0.85);
