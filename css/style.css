@@ -1,0 +1,282 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+    
+a {
+   color: white; 
+   justify-content:center;
+   text-decoration: none;
+   list-style: none;
+   font-size: 18px;
+   display: block;
+   font-weight: bold;
+   padding: 10px;
+   margin-right: 50px;
+}
+.menu {
+    background-color: #2b2e3f;
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-between;
+    min-height: 50px;
+}
+
+.menu a:hover {
+    color: #3997f1;
+}
+
+.menu-icon {
+    width: 25px;
+}
+
+@media(max-width:480px) {
+    .menu {
+        min-height: 40px;
+        top: 0;
+        padding: 10px;
+        display: initial;
+        display:block;
+
+    }
+    .menu .navbar a{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #2b2e3f;
+        display: none;
+       
+
+    }
+    .menu .navbar a {
+        width: 100%;
+        display: none;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .h1 {
+        justify-content: center;
+        font-size: small;
+        top: 0;
+        left: 0;
+        right: 0%;
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .fotos1  {
+        display: none;
+        flex-direction:column;
+        
+
+    }
+   
+
+}
+
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+   
+    display: flex;
+
+
+}
+
+
+h1{
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0%;
+
+
+
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3px; 
+
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+
+body{
+    
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-image: url(../imagenes/INICIO\ IMAGEN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+div.card{
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    margin: 100px;
+
+}
+    
+
+div.fotos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+div.fotos1 ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div.fotos1 li{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    height: 200px;
+    width: auto;
+    padding: 10px;
+    margin: 100px;
+  
+   
+}
+
+div.fotos1 img{
+    height: 100x;
+    width: 200px;
+    margin: 0px;
+    border-radius: 10px;
+    
+
+}
+form{
+   
+    display: grid;
+    justify-content: center;
+    color: white;
+    
+}
+
+p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    justify-content: center;
+}
+
+div.fotos2 img{
+    height: 500x;
+    width: 600px;
+    margin: 0px;
+    border-radius: 10px;
+
+}
+
+footer h3 {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3px; 
+    margin: 100;
+
+}
+h4{
+    font-size: small;
+}
+
+.row {
+    top: 100px;
+    margin: 15px;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.boton-contenedor {
+    background-color: #2e6329;
+    border: 5px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 0px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+    width: 9%;
+    height: 19%;
+}
+     
+
+
+
+.boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 90px;
+    transition: ease 1s;
+ 
+    
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(235, 241, 241, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(243, 248, 245, 0);
+    }
+}
