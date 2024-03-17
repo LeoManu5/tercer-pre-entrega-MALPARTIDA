@@ -33,7 +33,7 @@ a {
 }
 
 .menu-icon {
-  width: 25px;
+  width: 20px;
 }
 
 @media (max-width: 480px) {
@@ -58,6 +58,10 @@ a {
   }
   #menu:checked ~ .navbar {
     display: initial;
+  }
+  .navbar-brand {
+    width: 10px;
+    height: 10;
   }
   .h1 {
     justify-content: center;
@@ -222,6 +226,12 @@ h4 {
 .boton {
   width: 90px;
   transition: ease 1s;
+}
+
+.container-navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 ul li {
