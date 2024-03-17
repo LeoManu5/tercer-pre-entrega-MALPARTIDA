@@ -1,0 +1,21 @@
+form{
+   
+    display: grid;
+    justify-content: center;
+    color: white;
+    
+}
+.boton-contenedor {
+    background-color: #2e6329;
+    border: 5px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 0px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+    width: 9%;
+    height: 19%;
+}
