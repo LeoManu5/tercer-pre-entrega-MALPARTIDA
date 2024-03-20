@@ -391,9 +391,9 @@ h4{
 @media (max-width: 576px) {
     
     .boton {
-        width: 70px;
+        width: 40px;
         padding: 0px;
-        height: 70px;
+        height: 40px;
         
     }
 }
@@ -422,6 +422,17 @@ ul li{
     ul li {
         display: block; 
         text-align: left;
+    }
+}
+.mapa {
+    width: 100%; /* Ancho del contenedor al 100% */
+    max-width: 960px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    overflow: hidden; /* Ocultar cualquier contenido que sobresalga del contenedor */
+}
+@media (max-width: 576px) {
+    .mapa {
+        padding: 0 10px; /* Añadir un poco de espacio en los lados en dispositivos móviles */
     }
 }
 
