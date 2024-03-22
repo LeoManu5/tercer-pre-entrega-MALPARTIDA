@@ -1,21 +1,23 @@
-footer h3 {
+footer {
     font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 3px; 
-    margin: 100;
-    @media (max-width: 576px) {
-   
-        footer h3 {
-            font-size: 16px; 
-            margin: 20px; 
-        }
-    }
+    padding-top: 10px;
+    margin: 20px; 
+    top: 50%; 
 
+    @media (max-width: 576px) {
+        font-size: 10px;
+        flex-direction:unset; 
+        align-items:center; 
+        padding-top: 400px; 
+    }
 }
+
+
 .boton-contenedor {
     background-color: #2e6329;
     border: 5px solid #fff;
@@ -58,5 +60,23 @@ footer h3 {
 
     .boton:hover {
         transform: none; 
+    }
+}
+
+a {
+    color: white; 
+    justify-content:center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 50px;
+ }
+ @media (max-width: 576px) {
+    a {
+        font-size: 16px; 
+        margin-right: 20px; 
     }
 }

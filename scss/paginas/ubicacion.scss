@@ -1,0 +1,11 @@
+.mapa {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+@media (max-width: 576px) {
+    .mapa {
+        padding: 0 10px; 
+    }
+}
