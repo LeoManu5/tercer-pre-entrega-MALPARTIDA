@@ -16,8 +16,6 @@ footer {
         padding-top: 400px; 
     }
 }
-
-
 .boton-contenedor {
     background-color: #2e6329;
     border: 5px solid #fff;
@@ -31,7 +29,6 @@ footer {
     animation: efecto 1.2s infinite;
     width: 90px; 
     height: 90px;
-
     @media (max-width: 576px) {
         width: 90px; 
         height: 85px;
@@ -39,30 +36,25 @@ footer {
         right: 20px; 
     }
 }
-
 .boton {
     width: 600%; 
     height: 75%; 
     border-radius: 50%; 
 }
-
 .boton:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
-
 @media (max-width: 576px) {
     .boton {
         width: 150%;
         height: 75%;
         padding: 0px; 
     }
-
     .boton:hover {
         transform: none; 
     }
 }
-
 a {
     color: white; 
     justify-content:center;
